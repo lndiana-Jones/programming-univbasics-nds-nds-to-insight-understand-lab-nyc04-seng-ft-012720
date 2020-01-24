@@ -9,6 +9,6 @@ pp nds
 end
 #AoHoAoH
 def print_first_directors_movie_titles
-  
+  directors_database[0][:movies][:title]
 end
-pretty_print_nds(directors_database)
+print_first_directors_movie_titles
