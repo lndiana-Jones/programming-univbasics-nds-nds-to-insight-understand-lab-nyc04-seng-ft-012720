@@ -4,8 +4,8 @@ require 'directors_database'
 directors_database
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
-require PP
-directors_database
+require 'pp'
+pp directors_database
 end
 
 def print_first_directors_movie_titles
